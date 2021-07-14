@@ -14,7 +14,9 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="uMI-f2-aUT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexColor" systemColor="labelColor"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" text="" id="ttd-yp-6jr">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -39,7 +41,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Items" id="YxK-eY-UgH">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="7oi-P3-ROZ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="7oi-P3-ROZ">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="zin-G4-dhk" id="gd6-mc-v1a"/>
@@ -73,7 +75,7 @@
             </objects>
             <point key="canvasLocation" x="-929" y="161"/>
         </scene>
-        <!--ToDO-->
+        <!--Todo Lists-->
         <scene sceneID="4MN-K5-e8J">
             <objects>
                 <tableViewController id="WkK-li-kbm" customClass="CategoryViewController" customModule="core_date_final" customModuleProvider="target" sceneMemberID="viewController">
@@ -96,7 +98,7 @@
                             <outlet property="delegate" destination="WkK-li-kbm" id="xBx-2U-21j"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ToDO" id="USO-C0-NYD">
+                    <navigationItem key="navigationItem" title="Todo Lists" id="USO-C0-NYD">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="3EE-TA-BAs">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -114,6 +116,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

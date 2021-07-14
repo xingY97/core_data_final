@@ -60,14 +60,46 @@
 			children = (
 				14455B21269CD061007BBCC7 /* AppDelegate.swift */,
 				14455B23269CD061007BBCC7 /* SceneDelegate.swift */,
-				14455B25269CD061007BBCC7 /* TodoListVewController.swift */,
-				14455B27269CD061007BBCC7 /* Main.storyboard */,
-				14455B2D269CD062007BBCC7 /* Assets.xcassets */,
-				14455B2F269CD062007BBCC7 /* LaunchScreen.storyboard */,
+				148CE2A0269DF28E00CF25B7 /* Controllers */,
+				148CE29F269DF27F00CF25B7 /* DataModel */,
+				148CE2A1269DF2A000CF25B7 /* Views */,
+				148CE2A2269DF2B300CF25B7 /* Supporting Files */,
 				14455B32269CD062007BBCC7 /* Info.plist */,
 				14455B2A269CD061007BBCC7 /* core_date_final.xcdatamodeld */,
 			);
 			path = core_date_final;
+			sourceTree = "<group>";
+		};
+		148CE29F269DF27F00CF25B7 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		148CE2A0269DF28E00CF25B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				14455B25269CD061007BBCC7 /* TodoListVewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		148CE2A1269DF2A000CF25B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14455B27269CD061007BBCC7 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		148CE2A2269DF2B300CF25B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14455B2D269CD062007BBCC7 /* Assets.xcassets */,
+				14455B2F269CD062007BBCC7 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -22,4 +22,11 @@ Run:
 * CoreData
 * Story board
 
+<h3>Demo</h3>
+*Add an item to list*
+
+![Screen Shot 2021-07-16 at 2 25 34 PM](https://user-images.githubusercontent.com/45300300/125992528-1f401129-c896-403f-9b4d-c149f812f9b1.png)
+
+*Press the parent item to add more child todos*
+
 

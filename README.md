@@ -35,6 +35,7 @@ Run:
 
 ![Screen Shot 2021-07-16 at 2 29 25 PM](https://user-images.githubusercontent.com/45300300/125993003-539cca83-c4a9-4d56-850f-30e79a859de3.png)
 
+*Delete an item when finished*
 
-
+![Screen Shot 2021-07-16 at 2 30 26 PM](https://user-images.githubusercontent.com/45300300/125993096-871f48f2-7a9f-474a-8316-8cb8a0055959.png)
 

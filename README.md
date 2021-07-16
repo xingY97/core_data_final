@@ -31,5 +31,10 @@ Run:
 
 ![WechatIMG74](https://user-images.githubusercontent.com/45300300/125992862-4cd89442-3ee9-4655-a589-0d1d8abd44c7.png)
 
+*Search a specific task using the search bar*
+
+![Screen Shot 2021-07-16 at 2 29 25 PM](https://user-images.githubusercontent.com/45300300/125993003-539cca83-c4a9-4d56-850f-30e79a859de3.png)
+
+
 
 
